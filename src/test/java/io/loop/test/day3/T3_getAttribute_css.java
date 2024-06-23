@@ -5,7 +5,7 @@ import io.loop.test.utilities.WebDriverUtil;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.devtools.v123.network.model.TrustTokenOperationDone;
+
 
 public class T3_getAttribute_css {
     /*
