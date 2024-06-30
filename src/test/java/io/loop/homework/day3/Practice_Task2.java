@@ -1,12 +1,10 @@
-package io.loop.test.day3;
+package io.loop.homework.day3;
 
 import io.loop.test.utilities.WebDriverUtil;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
-import java.sql.SQLOutput;
 
 public class Practice_Task2 {
 
