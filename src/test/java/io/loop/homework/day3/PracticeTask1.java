@@ -1,4 +1,4 @@
-package io.loop.test.day3;
+package io.loop.homework.day3;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
