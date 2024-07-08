@@ -29,6 +29,16 @@ public class Task2 extends TestBase {
 
        //locate parent iframe 1
        parentFrame = driver.findElement(By.xpath("//frame[@name='frame-top']"));
+       /**
+      //or do it this way
+//      driver.switchTo().frame("frame-top");
+//      driver.switchTo().frame("frame-left");
+        WebElement left = driver.findElement(By.xpath("//*[contains(text(),'LEFT')]"));
+        String actualLeft = left.getText();
+
+        Assert.assertEquals(actualLeft.trim(), "LEFT");
+        **/
+
 
        //step into the frameset
        driver.switchTo().frame(parentFrame);
