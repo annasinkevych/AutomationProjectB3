@@ -19,6 +19,7 @@ public class TestBase {
 
     @AfterMethod
     protected void tearDown(){
-        driver.close();//kills the driver
+//        driver.close();//closes the current window  the driver
+        driver.quit();//kills the driver iself
     }
 }
